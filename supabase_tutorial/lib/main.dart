@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:supabase_tutorial/note_page.dart';
+
 
 void main() async {
   // supabase setup
@@ -17,7 +19,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      
+      home: NotePage(),
     );
   }
 }
